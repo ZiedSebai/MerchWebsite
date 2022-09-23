@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />     
+    <title>Merch Website</title>
+</head>
+    <body>
+        <div class="put-shadow"></div>
+        <section class="interface">
+            <div class="top-header shop">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+                <div class="log">
+                    <a href="login.html">
+                        <svg width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+                            <image href="/img/user.svg" height="28" width="28"/>
+                        </svg>
+                    </a>
+                    <div class="cart-div">
+                        <svg width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+                            <image href="/img/cart.svg" height="28" width="28"/>
+                        </svg>
+                        <div class="circle-cart"></div>
+                    </div>
+                    <div class="cart-prods">
+                        <div class="cart-prods-top">
+                            <h1>Cart</h1>
+                            <i class="fa fa-times" id="closelog" aria-hidden="true"></i>
+                        </div>
+                        <div class="cart-products">
+                            <div class="scp">
+                                <img src="img/merch.png" alt="">
+                                <div class="scp-info">
+                                    <h3>Merch Title Goes...</h3>
+                                    <h4>SMALL</h4>
+                                    <h4><span>1 *</span> $44.99</h4>
+                                    <p>REMOVE</p>
+                                </div>
+                            </div>
+                            <div class="scp">
+                                <img src="img/merch2.png" alt="">
+                                <div class="scp-info">
+                                    <h3>Merch Title Goes...</h3>
+                                    <h4>SMALL</h4>
+                                    <h4><span>2 *</span> $44.99</h4>
+                                    <p>REMOVE</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-prods-bot">
+                            <button>CHECKOUT   -   $134.97</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="the-merch">
+            <div class="the-merch-container">
+                <div class="merch-photos">
+                   <div class="pc-merch">
+                       <div class="photos-selector">
+                           <img src="img/merch.png">
+                           <img src="img/merch2.png">
+                           <img src="img/merch3.png">
+                       </div>
+                       <div class="selected-photo">
+                           <img src="img/merch.png" alt="">
+                       </div>
+                   </div>
+                </div>
+                <div class="merch-info">
+                    <div class="merch-title">
+                        <h1>Merch Title Goes here</h1>
+                        <p>Réf : 0028411</p> 
+                    </div>
+                    <h4>$44.99</h4>
+                    <div class="merch-size">
+                        <h3>Size:</h3>
+                        <ul>
+                            <li><button>S</button></li>
+                            <li><button>M</button></li>
+                            <li><button>L</button></li>
+                            <li><button>XL</button></li>
+                            <li><button>2XL</button></li>
+                            <li><button>3XL</button></li>
+                        </ul>
+                    </div>
+                    <div class="merch-shop">
+                        <div class="merch-quantity">
+                            <input type="text" value="1" id="quantity">
+                            <div class="quantity-control">
+                                <button id="add-qu"><i class="fa-solid fa-angle-up"></i></button>
+                                <button id="less-qu"><i class="fa-solid fa-angle-down"></i></button>
+                            </div>
+                        </div>
+                        <div class="merch-add-cart">
+                            <button>ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="merch-stock">
+                        <div class="stock-circle"></div>
+                        <p>Out of stock</p>
+                    </div>
+                    <div class="merch-desc">
+                        <h2>Description:</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint suscipit quod expedita sit voluptates, ea perspiciatis iure.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bot-sec">
+            <div class="bot-container">
+                <div class="bot-one">
+                    <div class="contact-info">
+                        <span>Contact info:</span>
+                        <span>email@site.com</span>
+                        <span>123 street, City, State, 3080</span>
+                    </div>
+                    <div class="other-info">
+                        <span>
+                            Refund Policy
+                        </span>
+                        <span>
+                            Privacy Policy
+                        </span>
+                        <span>
+                            Terms of Service
+                        </span>
+                        <span>
+    
+                        </span>
+                    </div>
+                </div>
+            <div class="bot-two">
+                <span>© 2022 Ferrr Merch.</span>
+                <span>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>                
+                </span>
+            </div>
+            </div>
+        </section>
+        <script src="js/app.js"></script>
+    </body>
+</html>

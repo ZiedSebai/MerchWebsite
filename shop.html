@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />     
+    <title>Merch Website</title>
+</head>
+    <body>
+        <div class="put-shadow"></div>
+        <section class="interface">
+            <div class="top-header shop">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+                <div class="log">
+                    <a href="login.html">
+                        <svg width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+                            <image href="/img/user.svg" height="28" width="28"/>
+                        </svg>
+                    </a>
+                    <div class="cart-div">
+                        <svg width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+                            <image href="/img/cart.svg" height="28" width="28"/>
+                        </svg>
+                        <div class="circle-cart"></div>
+                    </div>
+                    <div class="cart-prods">
+                        <div class="cart-prods-top">
+                            <h1>Cart</h1>
+                            <i class="fa fa-times" id="closelog" aria-hidden="true"></i>
+                        </div>
+                        <div class="cart-products">
+                            <div class="scp">
+                                <img src="img/merch.png" alt="">
+                                <div class="scp-info">
+                                    <h3>Merch Title Goes...</h3>
+                                    <h4>SMALL</h4>
+                                    <h4><span>1 *</span> $44.99</h4>
+                                    <p>REMOVE</p>
+                                </div>
+                            </div>
+                            <div class="scp">
+                                <img src="img/merch2.png" alt="">
+                                <div class="scp-info">
+                                    <h3>Merch Title Goes...</h3>
+                                    <h4>SMALL</h4>
+                                    <h4><span>2 *</span> $44.99</h4>
+                                    <p>REMOVE</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-prods-bot">
+                            <button>CHECKOUT   -   $134.97</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section">
+            <div class="filter">
+                <div class="filter-container">
+                    
+                    <div class="dropdown-filter"> 	
+                        <!-- <label class="for-dropdown" for="dropdown">Sort by <i class="fa-solid fa-arrow-up rotate0"></i></label> -->
+                        <!-- <div class="section-dropdown">  -->
+                            <a href="#" class="selected-filter">Best Rated</a>
+                            <a href="#">Best Sells</a>
+                            <a href="#">Newest</a>
+                            <a href="#">Trending</a>
+                            <a href="#">Price <i class="fas fa-arrow-up"></i></a>
+                            <a href="#">Price <i class="fas fa-arrow-down"></i></a>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <!-- <div class="filter-container-tlf">
+                    <span id="sortby">Sort By: </span>
+                    <div class="dropdown-filters">
+                        <span>Newest</span>
+                        <div class="filters">
+                            <p>Best Rated</p>
+                            <p>Best Sells</p>
+                            <p>Newest</p>
+                            <p>Trending</p>
+                            <p>Price <i class="fas fa-arrow-down"></i></p>
+                            <p>Price <i class="fas fa-arrow-up"></i></p>
+                        </div>
+                      </div>
+                </div> -->
+            </div>
+            <div class="view-shop-container shop">
+                <div class="view-shop-merch">
+                    <div class="single-merch">
+                        <a href="/single-merch.html"><img src="/img/merch.png" alt=""></a>
+                        <a href="/single-merch.html"><p>
+                            Merch name goes here
+                        </p></a>
+                        <h5>45dt</h5>
+                    </div>
+                    <div class="single-merch">
+                        <a href="/single-merch.html"><img src="/img/merch3.png" alt=""></a>
+                        <a href="/single-merch.html"><p>
+                            Merch name goes here
+                        </p></a>
+                        <h5>45dt</h5>
+                    </div>
+                    <div class="single-merch">
+                        <a href="/single-merch.html"><img src="/img/merch2.png" alt=""></a>
+                        <a href="/single-merch.html"><p>
+                            Merch name goes here
+                        </p></a>
+                        <h5>45dt</h5>
+                    </div>
+                    <div class="single-merch">
+                        <a href="/single-merch.html"><img src="/img/merch3.png" alt=""></a>
+                        <a href="/single-merch.html"><p>
+                            Merch name goes here
+                        </p></a>
+                        <h5>45dt</h5>
+                    </div>
+                    <div class="single-merch">
+                        <a href="/single-merch.html"><img src="/img/merch.png" alt=""></a>
+                        <a href="/single-merch.html"><p>
+                            Merch name goes here
+                        </p></a>
+                        <h5>45dt</h5>
+                    </div>
+                    <div class="single-merch">
+                        <a href="/single-merch.html"><img src="/img/merch2.png" alt=""></a>
+                        <a href="/single-merch.html"><p>
+                            Merch name goes here
+                        </p></a>
+                        <h5>45dt</h5>
+                    </div>
+                    <div class="single-merch">
+                        <a href="/single-merch.html"><img src="/img/merch3.png" alt=""></a>
+                        <a href="/single-merch.html"><p>
+                            Merch name goes here
+                        </p></a>
+                        <h5>45dt</h5>
+                    </div>
+                    <div class="single-merch">
+                        <a href="/single-merch.html"><img src="/img/merch.png" alt=""></a>
+                        <a href="/single-merch.html"><p>
+                            Merch name goes here
+                        </p></a>
+                        <h5>45dt</h5>
+                    </div>
+                    <div class="single-merch">
+                        <a href="/single-merch.html"><img src="/img/merch2.png" alt=""></a>
+                        <a href="/single-merch.html"><p>
+                            Merch name goes here
+                        </p></a>
+                        <h5>45dt</h5>
+                    </div>
+                    <div class="single-merch">
+                        <a href="/single-merch.html"><img src="/img/merch3.png" alt=""></a>
+                        <a href="/single-merch.html"><p>
+                            Merch name goes here
+                        </p></a>
+                        <h5>45dt</h5>
+                    </div>
+                    <div class="single-merch">
+                        <a href="/single-merch.html"><img src="/img/merch.png" alt=""></a>
+                        <a href="/single-merch.html"><p>
+                            Merch name goes here
+                        </p></a>
+                        <h5>45dt</h5>
+                    </div>
+                    <div class="single-merch">
+                        <a href="/single-merch.html"><img src="/img/merch2.png" alt=""></a>
+                        <a href="/single-merch.html"><p>
+                            Merch name goes here
+                        </p></a>
+                        <h5>45dt</h5>
+                    </div>
+                    <div class="single-merch">
+                        <a href="/single-merch.html"><img src="/img/merch3.png" alt=""></a>
+                        <a href="/single-merch.html"><p>
+                            Merch name goes here
+                        </p></a>
+                        <h5>45dt</h5>
+                    </div>
+                    <div class="single-merch">
+                        <a href="/single-merch.html"><img src="/img/merch.png" alt=""></a>
+                        <a href="/single-merch.html"><p>
+                            Merch name goes here
+                        </p></a>
+                        <h5>45dt</h5>
+                    </div>
+                    <div class="single-merch">
+                        <a href="/single-merch.html"><img src="/img/merch2.png" alt=""></a>
+                        <a href="/single-merch.html"><p>
+                            Merch name goes here
+                        </p></a>
+                        <h5>45dt</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="bot-sec">
+            <div class="bot-container">
+                <div class="bot-one">
+                    <div class="contact-info">
+                        <span>Contact info:</span>
+                        <span>email@site.com</span>
+                        <span>123 street, City, State, 3080</span>
+                    </div>
+                    <div class="other-info">
+                        <span>
+                            Refund Policy
+                        </span>
+                        <span>
+                            Privacy Policy
+                        </span>
+                        <span>
+                            Terms of Service
+                        </span>
+                        <span>
+    
+                        </span>
+                    </div>
+                </div>
+            <div class="bot-two">
+                <span>© 2022 Ferrr Merch.</span>
+                <span>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>                
+                </span>
+            </div>
+            </div>
+        </section>
+        <script src="js/app.js"></script>
+    </body>
+</html>
